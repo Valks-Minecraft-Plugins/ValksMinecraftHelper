@@ -66,6 +66,10 @@ As a temporary solution I've created a whitelist to get around these annoyances.
 
 https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/blob/d3a3b834dcde3a4aa8f09993b55b1f5c7b77c465/Form1.cs#L59-L80
 
+Update: A solution has been found! So looks like mod.jars can be easily extracted and contain the mod namespace inside. All I need to do is match the mod namespace with the mod filename and all these problems should go away!
+
+P.S. I'm going to re-create this tool in Godot. Windows Forms UI is awful to work with.
+
 Here are the kind of contributions I'm looking for
 - Contributions that fix the problem I just described
 - Contributions that make the Window Form look nicer / add more buttons like for example "Open Minecraft Folder" / make it more human readable / easier to use
