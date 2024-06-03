@@ -1,6 +1,14 @@
 # Valks Minecraft Helper
 Simplifies the tedious process of adding required dependency mods back to the mods folder when debugging faulty Minecraft mods.
 
+Lets say you just put together a modpack with over 400 mods but one of the mods is causing problems and you don't know which one it is.
+
+The brute force solution is to remove half your mods and check to see if the problem still exists and keep doing this until the problem goes away. You will eventually find the mod that was causing so much trouble.
+
+This works but when you have over 400 mods and you quickly remove 200 mods without giving it a second thought, you're also removing a ton of dependency mods that your new reduced mod list depends on. You could manually add them back but this is very time consuming.
+
+So what I've done is spent my entire day today making this tool that will auto find all your required dependencies you removed and add them back to your mods folder for you.
+
 ![Untitled](https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/assets/6277739/e62f3eee-6085-49f2-bd3e-cdce914b0b38)
 
 ## Why make this?
