@@ -25,3 +25,25 @@ The Hero Proof (v5.1.2) Minecraft mod transforms all console "Preparing spawn ar
 
 ## Tips
 Alongside the "temp" folder you created for the "Set Dependencies Folder", create a new folder called "not culprit". If you run minecraft and the problem does not appear then move all the mods from "temp" to "not culprit".
+
+## Contributing
+The "Move Dependencies" command only works 90% of the time. For example lets say the following code finds the fabric-3.1.4+mc1.20.1.jar mod. The latest.log file only tells us the name "fabric" and not the exact version so well only have "fabric" to go by later.
+
+https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/blob/d3a3b834dcde3a4aa8f09993b55b1f5c7b77c465/Form1.cs#L230-L248
+
+The following code will try to match the keyword "fabric" with the mod file names in "temp" folder. But lots of mods have "fabric" in their names so the code will add any one of these other mods and it will think that it moved the correct mod when it in fact did not.
+
+https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/blob/d3a3b834dcde3a4aa8f09993b55b1f5c7b77c465/Form1.cs#L91-L103
+
+As an extra step the name "fabric" is also checked agaisnt the mods folder but this does not always help.
+
+https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/blob/d3a3b834dcde3a4aa8f09993b55b1f5c7b77c465/Form1.cs#L105-L116
+
+As a temporary solution I've created a whitelist to get around these annoyances.
+
+https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/blob/d3a3b834dcde3a4aa8f09993b55b1f5c7b77c465/Form1.cs#L59-L80
+
+Here are the kind of contributions I'm looking for
+- Contributions that fix the problem I just described
+- Contributions that make the Window Form look nicer / add more buttons like for example "Open Minecraft Folder" / make it more human readable / easier to use
+- Contributions that automate the process more. For example instead of having to click the "Move Dependencies" button 3 times, why not just press it once and the tool auto starts minecraft 3 times to generate the latest.log file 3 times.
