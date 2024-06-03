@@ -14,14 +14,15 @@ The Hero Proof (v5.1.2) Minecraft mod transforms all console "Preparing spawn ar
 "Run Minecraft" - This will try to execute whatever file you set it to with the "Set Minecraft Exe" button. Saves extra clicks if you don't want to constantly try to find run.bat in the server folder.
 
 ## How to use this
-1. Create a new folder called "temp" in your mods folder.
-2. Set the dependencies folder to "temp".
-3. Set the minecraft folder to the folder where the mods folder is.
-4. Cut half of your mods and put them in "temp" folder.
-5. Run minecraft and wait for latest.log file to generate
-6. If minecraft failed to start because of missing required dependency mods, click on "Move Dependencies" button and try to run Minecraft again
-7. Keep repeating step 6 until there are no dependency mods missing
-8. Repeat steps 4 to 7 until you find the mod that is causing problems for you
+1. Download the tool from https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/releases
+2. Create a new folder called "temp" in your mods folder.
+3. Set the dependencies folder to "temp".
+4. Set the minecraft folder to the folder where the mods folder is.
+5. Cut half of your mods and put them in "temp" folder.
+6. Run minecraft and wait for latest.log file to generate
+7. If minecraft failed to start because of missing required dependency mods, click on "Move Dependencies" button and try to run Minecraft again
+8. Keep repeating step 7 until there are no dependency mods missing
+9. Repeat steps 5 to 8 until you find the mod that is causing problems for you
 
 ## Tips
 Alongside the "temp" folder you created for the "Set Dependencies Folder", create a new folder called "not culprit". If you run minecraft and the problem does not appear then move all the mods from "temp" to "not culprit".
