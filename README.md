@@ -24,6 +24,8 @@ Anyways this tool will add back all the dependencies needed with the click of a 
 "Run Minecraft" - This will try to execute whatever file you set it to with the "Set Minecraft Exe" button. Saves extra clicks if you don't want to constantly try to find run.bat in the server folder.  
 
 ## How to use this
+(You may need .net 7.0 to run this, I'm not sure. You can get it from here https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
+
 1. Download the tool from https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/releases
 2. Create a new folder called "temp" in your mods folder.
 3. Set the dependencies folder to "temp".
