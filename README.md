@@ -4,7 +4,13 @@ Simplifies the tedious process of adding required dependency mods back to the mo
 ![Untitled](https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/assets/6277739/e62f3eee-6085-49f2-bd3e-cdce914b0b38)
 
 ## Why make this?
-The Hero Proof (v5.1.2) Minecraft mod transforms all console "Preparing spawn area: x%" messages to "menu.preparingSpawn". If you try to do the 'list' command you will get a similar unhelpful output. But I didn't know that it was this mod causing the problems at the time. I have a modpack called "The Energy Race" with over 400 mods. I wasn't going to remove half the mods, spend 10 minutes adding back all the required dependency mods needed, check if it works, repeat the same steps over and over again until I find  the culprit mod. Adding back all the required dependency mods takes a lot of time. So that's why I made "Valks Minecraft Helper". I couldn't think of a better name because the tool might evolve into something more later. Anyways this tool will add back all the dependencies needed with the click of a button. Much precious time is saved!
+The Hero Proof (v5.1.2) Minecraft mod transforms all console "Preparing spawn area: x%" messages to "menu.preparingSpawn". If you try to do the 'list' command you will get a similar unhelpful output. But I didn't know that it was this mod causing the problems at the time. 
+
+I have a modpack called "The Energy Race" with over 400 mods. I wasn't going to remove half the mods, spend 10 minutes adding back all the required dependency mods needed, check if it works, repeat the same steps over and over again until I find the culprit mod. 
+
+Adding back all the required dependency mods takes a lot of time. So that's why I made "Valks Minecraft Helper". I couldn't think of a better name because the tool might evolve into something more later. 
+
+Anyways this tool will add back all the dependencies needed with the click of a button. Much precious time is saved!
 
 ## GUI Explained
 "Set Minecraft Folder" - This should be set to the minecraft instance folder. The folder where the mods, scripts, resourcepacks, shaderpacks folders are.  
