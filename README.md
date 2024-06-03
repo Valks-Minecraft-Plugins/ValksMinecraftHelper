@@ -47,3 +47,5 @@ Here are the kind of contributions I'm looking for
 - Contributions that fix the problem I just described
 - Contributions that make the Window Form look nicer / add more buttons like for example "Open Minecraft Folder" / make it more human readable / easier to use
 - Contributions that automate the process more. For example instead of having to click the "Move Dependencies" button 3 times, why not just press it once and the tool auto starts minecraft 3 times to generate the latest.log file 3 times.
+
+If you have any questions you can contact me over discord, my username is valk2023.
