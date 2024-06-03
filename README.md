@@ -1,6 +1,8 @@
 # Valks Minecraft Helper
 Simplifies the tedious process of adding required dependency mods back to the mods folder when debugging faulty Minecraft mods.
 
+This tool has only been tested on Fabric modpacks so far.
+
 ![Untitled](https://github.com/Valks-Minecraft-Plugins/ValksMinecraftHelper/assets/6277739/e62f3eee-6085-49f2-bd3e-cdce914b0b38)
 
 Lets say you just put together a modpack with over 400 mods but one of the mods is causing problems and you don't know which one it is.
