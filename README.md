@@ -1,3 +1,6 @@
+## Notice: I'm going to try making this from scratch in Godot in a different repo. 
+I want to keep this repo up because it's the first Windows App form I ever made.
+
 # Valks Minecraft Helper
 Simplifies the tedious process of adding required dependency mods back to the mods folder when debugging faulty Minecraft mods.
 
