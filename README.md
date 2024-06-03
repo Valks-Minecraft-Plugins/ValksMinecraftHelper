@@ -14,9 +14,13 @@ Anyways this tool will add back all the dependencies needed with the click of a 
 
 ## GUI Explained
 "Set Minecraft Folder" - This should be set to the minecraft instance folder. The folder where the mods, scripts, resourcepacks, shaderpacks folders are.  
+
 "Set Dependencies Folder" - This should be set to a new folder you create yourself in the mods folder. Name the folder something like temp.  
+
 "Set Minecraft Exe" - This should be set to run.bat if its a server or if not a server; whatever exe launches minecraft and generates logs for latest.log file.  
+
 "Move Dependencies" - This will move all the needed dependencies from "temp" back to "mods"  
+
 "Run Minecraft" - This will try to execute whatever file you set it to with the "Set Minecraft Exe" button. Saves extra clicks if you don't want to constantly try to find run.bat in the server folder.  
 
 ## How to use this
