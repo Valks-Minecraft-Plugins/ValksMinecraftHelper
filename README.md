@@ -1,7 +1,6 @@
-## Notice: I'm going to try making this from scratch in Godot in a different repo. 
-I want to keep this repo up because it's the first Windows App form I ever made.
+# Development has been moved to https://github.com/Valks-Minecraft-Plugins/FiestaMC
 
-# Valks Minecraft Helper
+## What is this?
 Simplifies the tedious process of adding required dependency mods back to the mods folder when debugging faulty Minecraft mods.
 
 This tool has only been tested on Fabric modpacks so far.
